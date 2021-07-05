@@ -25,4 +25,4 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/acpl/my-tags)
 - [GitHub](https://github.com/android-com-pl/my-tags)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Discuss](https://discuss.flarum.org/d/28004-my-tags)
