@@ -4,6 +4,8 @@
 
 A [Flarum](http://flarum.org) extension. Displays a list of tags that the user is following in the sidebar.
 
+![Imgur](https://i.imgur.com/YpjDEZd.gif)
+
 ### Installation
 
 Install with composer:
