@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of android-com-pl/my-tags.
+ * This file is part of acpl/my-tags.
  *
- * Copyright (c) 2021 rafaucau.
+ * Copyright (c) 2021 forum.android.com.pl.
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.

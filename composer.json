@@ -6,6 +6,11 @@
   ],
   "type": "flarum-extension",
   "license": "MIT",
+  "support": {
+    "issues": "https://github.com/android-com-pl/my-tags/issues",
+    "source": "https://github.com/android-com-pl/my-tags",
+    "forum": "https://discuss.flarum.org/d/28004-my-tags"
+  },
   "require": {
     "flarum/core": "^1.0",
     "fof/follow-tags": "*"
@@ -26,23 +31,15 @@
       "Acpl\\MyTags\\": "src/"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-      "Acpl\\MyTags\\Tests\\": "tests/"
-    }
-  },
   "extra": {
     "flarum-extension": {
       "title": "My Tags",
-      "category": "",
+      "category": "feature",
       "icon": {
         "name": "fas fa-th-list",
         "backgroundColor": "#0F9D58",
         "color": "#fff"
       }
-    },
-    "flagrow": {
-      "discuss": "feature"
     }
   }
 }
