@@ -11,7 +11,7 @@ use Psr\Http\Message\ServerRequestInterface;
 class LoadForumTagsRelationship
 {
     /**
-     * Load tags that a user is following
+     * Load tags that a user is following.
      * @param ShowForumController $controller
      * @param $data
      * @param ServerRequestInterface $request
