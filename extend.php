@@ -23,6 +23,6 @@ return [
     (new Extend\ApiController(ShowForumController::class))->prepareDataForSerialization(LoadForumTagsRelationship::class),
 
     (new Extend\Settings())->serializeToForum('my-tags.enable-placeholder', 'acpl-my-tags.enable-placeholder', function ($value) {
-        return ! empty($value) && $value;
+        return ! empty($value);
     }),
 ];
