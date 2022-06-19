@@ -4,7 +4,7 @@
 
 A [Flarum](https://flarum.org) extension. Displays a list of tags that the user is following in the sidebar.
 
-Requires `fof/follow tags`
+Requires [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 
 ![Imgur](https://i.imgur.com/YpjDEZd.gif)
 
