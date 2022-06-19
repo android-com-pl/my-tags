@@ -1,6 +1,6 @@
 # My Tags
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/acpl/my-tags.svg)](https://packagist.org/packages/acpl/my-tags) [![Total Downloads](https://img.shields.io/packagist/dt/acpl/my-tags.svg)](https://packagist.org/packages/acpl/my-tags) ![Supports latest Flarum](https://flarum-badge-api.davwheat.dev/v1/compat-latest/acpl/my-tags)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/acpl/my-tags.svg)](https://packagist.org/packages/acpl/my-tags) [![Total Downloads](https://img.shields.io/packagist/dt/acpl/my-tags.svg)](https://packagist.org/packages/acpl/my-tags)
 
 A [Flarum](https://flarum.org) extension. Displays a list of tags that the user is following in the sidebar.
 
