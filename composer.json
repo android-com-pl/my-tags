@@ -14,6 +14,12 @@
         "source": "https://github.com/android-com-pl/my-tags",
         "forum": "https://discuss.flarum.org/d/28004-my-tags"
     },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/android-com-pl"
+        }
+    ],
     "require": {
         "flarum/core": "^1.2",
         "fof/follow-tags": "*"
@@ -21,7 +27,7 @@
     "authors": [
         {
             "name": "Rafał Całka",
-            "email": "rafal.calka@android.com.pl",
+            "homepage": "https://github.com/rafaucau",
             "role": "Developer"
         },
         {
@@ -53,7 +59,7 @@
                 "gitConf": true,
                 "githubActions": true,
                 "prettier": true,
-                "typescript": true,
+                "typescript": false,
                 "bundlewatch": false,
                 "backendTesting": false,
                 "editorConfig": true,
