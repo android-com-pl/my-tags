@@ -1,11 +1,11 @@
-import { Vnode, Children } from 'mithril';
+import type { Children, Vnode } from 'mithril';
+import type { ComponentAttrs } from 'flarum/common/Component';
 import Component from 'flarum/common/Component';
-import { ComponentAttrs } from 'flarum/common/Component';
 import app from 'flarum/forum/app';
-// @ts-ignore
-import tagLabel from 'flarum/tags/helpers/tagLabel';
 import Separator from 'flarum/common/components/Separator';
 import Link from 'flarum/common/components/Link';
+// @ts-ignore
+import tagLabel from '@flarum/tags/helpers/tagLabel';
 
 export default class extends Component {
   view(vnode: Vnode<ComponentAttrs, this>): Children {
