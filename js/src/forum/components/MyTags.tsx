@@ -20,12 +20,16 @@ export default class extends Component {
 
     return (
       <>
-        <div className="MyTags">
-          <p>{app.translator.trans('acpl-my-tags.forum.index.my_tags')}</p>
+        <div className="MyTags" role="group">
+          <p className="MyTags__label">{app.translator.trans('acpl-my-tags.forum.index.my_tags')}</p>
           {!tags.length && showPlaceholder ? (
             <span>{app.translator.trans('acpl-my-tags.forum.index.placeholder', { a: <Link href={app.route('tags')} /> })}</span>
           ) : (
-            <div className="MyTags__list">{tags.map((tag) => tagLabel(tag, { link: app.route.tag(tag) }))}</div>
+            <ul className="MyTags__list">
+              {tags.map((tag) => (
+                <li key={`myTags-tag-${tag.id()}`}>{tagLabel(tag, { link: app.route.tag(tag) })}</li>
+              ))}
+            </ul>
           )}
         </div>
         <Separator />
