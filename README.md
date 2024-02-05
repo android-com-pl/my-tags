@@ -13,13 +13,13 @@ Requires [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 Install with composer:
 
 ```sh
-composer require acpl/my-tags:"*"
+composer require acpl/my-tags
 ```
 
 ### Updating
 
 ```sh
-composer update acpl/my-tags:"*"
+composer update acpl/my-tags
 php flarum cache:clear
 ```
 
