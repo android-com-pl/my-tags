@@ -1,18 +1,17 @@
 {
   "name": "@acpl/my-tags",
-  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a",
   "private": true,
   "prettier": "@flarum/prettier-config",
   "devDependencies": {
     "@flarum/prettier-config": "^1.0.0",
     "flarum-tsconfig": "^1.0.2",
     "flarum-webpack-config": "^2.0.2",
-    "postcss": "^8.4.39",
-    "prettier": "^3.3.2",
-    "prettier-plugin-css-order": "^2.1.2",
-    "typescript": "^5.5.3",
-    "typescript-coverage-report": "^1.0.0",
-    "webpack": "^5.92.1",
+    "postcss": "^8.4.33",
+    "prettier": "^3.2.5",
+    "prettier-plugin-css-order": "^2.0.1",
+    "typescript": "^5.3.3",
+    "typescript-coverage-report": "^0.8.0",
+    "webpack": "^5.90.1",
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
