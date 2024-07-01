@@ -6,12 +6,11 @@
     "@flarum/prettier-config": "^1.0.0",
     "flarum-tsconfig": "^1.0.2",
     "flarum-webpack-config": "^2.0.2",
-    "postcss": "^8.4.33",
-    "prettier": "^3.2.5",
-    "prettier-plugin-css-order": "^2.0.1",
-    "typescript": "^5.3.3",
-    "typescript-coverage-report": "^0.8.0",
-    "webpack": "^5.90.1",
+    "prettier": "^3.3.2",
+    "prettier-plugin-css-order": "^2.1.2",
+    "typescript": "^5.5.3",
+    "typescript-coverage-report": "^1.0.0",
+    "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
