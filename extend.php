@@ -19,6 +19,6 @@ return [
         ->serializeToForum(
             'my-tags.enable-placeholder',
             'acpl-my-tags.enable-placeholder',
-            fn($value) => !empty($value)
+            fn ($value) => ! empty($value)
         ),
 ];
