@@ -20,19 +20,10 @@
             "url": "https://github.com/android-com-pl/my-tags?sponsor=1"
         }
     ],
-    "require": {
-        "php": "^8.2",
-        "flarum/core": "^2.0.0-beta",
-        "fof/follow-tags": "*"
-    },
     "authors": [
         {
             "name": "Rafał Całka",
             "homepage": "https://github.com/rafaucau",
-            "role": "Developer"
-        },
-        {
-            "name": "Szymon Kilar",
             "role": "Developer"
         }
     ],
@@ -41,6 +32,13 @@
             "Acpl\\MyTags\\": "src/"
         }
     },
+    "require": {
+        "php": "^8.2",
+        "flarum/core": "^2.0.0-beta",
+        "fof/follow-tags": "^2.0.0-beta"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "beta",
     "extra": {
         "flarum-extension": {
             "title": "My Tags",

@@ -1,14 +1,10 @@
-import IndexSidebar from 'flarum/forum/components/IndexSidebar';
-// External dependencies
 import app from 'flarum/forum/app';
 import { extend } from 'flarum/common/extend';
-import IndexPage from 'flarum/forum/components/IndexPage';
-
-// Internal dependencies
+import IndexSidebar from 'flarum/forum/components/IndexSidebar';
 import MyTags from './components/MyTags';
 
 app.initializers.add('acpl/my-tags', () => {
-  extend(IndexSidebar.prototype, 'navItems', (items) => {
+  extend(IndexSidebar.prototype, 'items', (items) => {
     if (!app.session.user) return;
 
     items.add('my-tags', <MyTags />, -13);
