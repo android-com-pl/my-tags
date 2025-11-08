@@ -4,7 +4,7 @@ import Component from 'flarum/common/Component';
 import app from 'flarum/forum/app';
 import Separator from 'flarum/common/components/Separator';
 import Link from 'flarum/common/components/Link';
-import tagLabel from 'flarum/tags/common/helpers/tagLabel';
+import tagLabel from 'ext:flarum/tags/common/helpers/tagLabel';
 import type Tag from 'flarum/tags/common/models/Tag';
 
 interface FollowableTag extends Tag {
