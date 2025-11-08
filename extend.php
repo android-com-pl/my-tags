@@ -2,11 +2,11 @@
 
 namespace Acpl\MyTags;
 
-use Flarum\Extend;
 use Flarum\Api\Context;
 use Flarum\Api\Endpoint;
 use Flarum\Api\Resource;
 use Flarum\Api\Schema;
+use Flarum\Extend;
 use Flarum\Tags\Tag;
 
 return [
@@ -20,7 +20,7 @@ return [
     new Extend\Locales(__DIR__.'/locale'),
 
     (new Extend\ApiResource(Resource\ForumResource::class))
-        ->fields(fn() => [
+        ->fields(fn () => [
             Schema\Relationship\ToMany::make('myFollowedTags')
                 ->type('tags')
                 ->includable()
