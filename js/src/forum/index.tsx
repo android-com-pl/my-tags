@@ -4,7 +4,7 @@ import IndexSidebar from 'flarum/forum/components/IndexSidebar';
 import MyTags from './components/MyTags';
 
 app.initializers.add('acpl/my-tags', () => {
-  extend(IndexSidebar.prototype, 'items', (items) => {
+  extend(IndexSidebar.prototype, 'navItems', (items) => {
     if (!app.session.user) return;
 
     items.add('my-tags', <MyTags />, -13);
