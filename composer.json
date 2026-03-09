@@ -44,9 +44,9 @@
             "title": "My Tags",
             "category": "feature",
             "icon": {
-                "name": "fas fa-th-list",
-                "backgroundColor": "#0F9D58",
-                "color": "#fff"
+                "name": "fas fa-bookmark",
+                "backgroundColor": "#00dc51",
+                "color": "#15161E"
             }
         },
         "flarum-cli": {
